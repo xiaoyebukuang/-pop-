@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D654B0C1D16894800C64288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B0B1D16894800C64288 /* main.m */; };
+		3D654B0F1D16894800C64288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B0E1D16894800C64288 /* AppDelegate.m */; };
+		3D654B121D16894800C64288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B111D16894800C64288 /* ViewController.m */; };
+		3D654B151D16894800C64288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D654B131D16894800C64288 /* Main.storyboard */; };
+		3D654B171D16894800C64288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D654B161D16894800C64288 /* Images.xcassets */; };
+		3D654B1A1D16894800C64288 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D654B181D16894800C64288 /* LaunchScreen.xib */; };
+		3D654B261D16894800C64288 /* ___pop__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B251D16894800C64288 /* ___pop__Tests.m */; };
+		3D654B311D16897100C64288 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B301D16897100C64288 /* PopAnimation.m */; };
+		3D654B341D168BA300C64288 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B331D168BA300C64288 /* NavigationInteractiveTransition.m */; };
+		3D654B371D168BBE00C64288 /* Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B361D168BBE00C64288 /* Nav.m */; };
+		3D654B3A1D168C5900C64288 /* CXToMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D654B391D168C5900C64288 /* CXToMoveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D654B201D16894800C64288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D654AFE1D16894800C64288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D654B051D16894800C64288;
+			remoteInfo = "自定义pop系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D654B061D16894800C64288 /* 自定义pop系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义pop系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D654B0A1D16894800C64288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D654B0B1D16894800C64288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D654B0D1D16894800C64288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D654B0E1D16894800C64288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D654B101D16894800C64288 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D654B111D16894800C64288 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D654B141D16894800C64288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D654B161D16894800C64288 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D654B191D16894800C64288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D654B1F1D16894800C64288 /* 自定义pop系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义pop系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D654B241D16894800C64288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D654B251D16894800C64288 /* ___pop__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___pop__Tests.m"; sourceTree = "<group>"; };
+		3D654B2F1D16897100C64288 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		3D654B301D16897100C64288 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		3D654B321D168BA300C64288 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		3D654B331D168BA300C64288 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		3D654B351D168BBE00C64288 /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
+		3D654B361D168BBE00C64288 /* Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav.m; sourceTree = "<group>"; };
+		3D654B381D168C5900C64288 /* CXToMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXToMoveViewController.h; sourceTree = "<group>"; };
+		3D654B391D168C5900C64288 /* CXToMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXToMoveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D654B031D16894800C64288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D654B1C1D16894800C64288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D654AFD1D16894800C64288 = {
+			isa = PBXGroup;
+			children = (
+				3D654B081D16894800C64288 /* 自定义pop系统 */,
+				3D654B221D16894800C64288 /* 自定义pop系统Tests */,
+				3D654B071D16894800C64288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D654B071D16894800C64288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D654B061D16894800C64288 /* 自定义pop系统.app */,
+				3D654B1F1D16894800C64288 /* 自定义pop系统Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D654B081D16894800C64288 /* 自定义pop系统 */ = {
+			isa = PBXGroup;
+			children = (
+				3D654B0D1D16894800C64288 /* AppDelegate.h */,
+				3D654B0E1D16894800C64288 /* AppDelegate.m */,
+				3D654B101D16894800C64288 /* ViewController.h */,
+				3D654B111D16894800C64288 /* ViewController.m */,
+				3D654B381D168C5900C64288 /* CXToMoveViewController.h */,
+				3D654B391D168C5900C64288 /* CXToMoveViewController.m */,
+				3D654B2F1D16897100C64288 /* PopAnimation.h */,
+				3D654B301D16897100C64288 /* PopAnimation.m */,
+				3D654B321D168BA300C64288 /* NavigationInteractiveTransition.h */,
+				3D654B331D168BA300C64288 /* NavigationInteractiveTransition.m */,
+				3D654B351D168BBE00C64288 /* Nav.h */,
+				3D654B361D168BBE00C64288 /* Nav.m */,
+				3D654B131D16894800C64288 /* Main.storyboard */,
+				3D654B161D16894800C64288 /* Images.xcassets */,
+				3D654B181D16894800C64288 /* LaunchScreen.xib */,
+				3D654B091D16894800C64288 /* Supporting Files */,
+			);
+			path = "自定义pop系统";
+			sourceTree = "<group>";
+		};
+		3D654B091D16894800C64288 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D654B0A1D16894800C64288 /* Info.plist */,
+				3D654B0B1D16894800C64288 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D654B221D16894800C64288 /* 自定义pop系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D654B251D16894800C64288 /* ___pop__Tests.m */,
+				3D654B231D16894800C64288 /* Supporting Files */,
+			);
+			path = "自定义pop系统Tests";
+			sourceTree = "<group>";
+		};
+		3D654B231D16894800C64288 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D654B241D16894800C64288 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D654B051D16894800C64288 /* 自定义pop系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D654B291D16894800C64288 /* Build configuration list for PBXNativeTarget "自定义pop系统" */;
+			buildPhases = (
+				3D654B021D16894800C64288 /* Sources */,
+				3D654B031D16894800C64288 /* Frameworks */,
+				3D654B041D16894800C64288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义pop系统";
+			productName = "自定义pop系统";
+			productReference = 3D654B061D16894800C64288 /* 自定义pop系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D654B1E1D16894800C64288 /* 自定义pop系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D654B2C1D16894800C64288 /* Build configuration list for PBXNativeTarget "自定义pop系统Tests" */;
+			buildPhases = (
+				3D654B1B1D16894800C64288 /* Sources */,
+				3D654B1C1D16894800C64288 /* Frameworks */,
+				3D654B1D1D16894800C64288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D654B211D16894800C64288 /* PBXTargetDependency */,
+			);
+			name = "自定义pop系统Tests";
+			productName = "自定义pop系统Tests";
+			productReference = 3D654B1F1D16894800C64288 /* 自定义pop系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D654AFE1D16894800C64288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = XY;
+				TargetAttributes = {
+					3D654B051D16894800C64288 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3D654B1E1D16894800C64288 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3D654B051D16894800C64288;
+					};
+				};
+			};
+			buildConfigurationList = 3D654B011D16894800C64288 /* Build configuration list for PBXProject "自定义pop系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D654AFD1D16894800C64288;
+			productRefGroup = 3D654B071D16894800C64288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D654B051D16894800C64288 /* 自定义pop系统 */,
+				3D654B1E1D16894800C64288 /* 自定义pop系统Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D654B041D16894800C64288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D654B151D16894800C64288 /* Main.storyboard in Resources */,
+				3D654B1A1D16894800C64288 /* LaunchScreen.xib in Resources */,
+				3D654B171D16894800C64288 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D654B1D1D16894800C64288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D654B021D16894800C64288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D654B311D16897100C64288 /* PopAnimation.m in Sources */,
+				3D654B121D16894800C64288 /* ViewController.m in Sources */,
+				3D654B3A1D168C5900C64288 /* CXToMoveViewController.m in Sources */,
+				3D654B0F1D16894800C64288 /* AppDelegate.m in Sources */,
+				3D654B371D168BBE00C64288 /* Nav.m in Sources */,
+				3D654B341D168BA300C64288 /* NavigationInteractiveTransition.m in Sources */,
+				3D654B0C1D16894800C64288 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D654B1B1D16894800C64288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D654B261D16894800C64288 /* ___pop__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D654B211D16894800C64288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D654B051D16894800C64288 /* 自定义pop系统 */;
+			targetProxy = 3D654B201D16894800C64288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D654B131D16894800C64288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D654B141D16894800C64288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D654B181D16894800C64288 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D654B191D16894800C64288 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D654B271D16894800C64288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D654B281D16894800C64288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D654B2A1D16894800C64288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义pop系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D654B2B1D16894800C64288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义pop系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D654B2D1D16894800C64288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义pop系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义pop系统.app/自定义pop系统";
+			};
+			name = Debug;
+		};
+		3D654B2E1D16894800C64288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义pop系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义pop系统.app/自定义pop系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D654B011D16894800C64288 /* Build configuration list for PBXProject "自定义pop系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D654B271D16894800C64288 /* Debug */,
+				3D654B281D16894800C64288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D654B291D16894800C64288 /* Build configuration list for PBXNativeTarget "自定义pop系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D654B2A1D16894800C64288 /* Debug */,
+				3D654B2B1D16894800C64288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D654B2C1D16894800C64288 /* Build configuration list for PBXNativeTarget "自定义pop系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D654B2D1D16894800C64288 /* Debug */,
+				3D654B2E1D16894800C64288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D654AFE1D16894800C64288 /* Project object */;
+}

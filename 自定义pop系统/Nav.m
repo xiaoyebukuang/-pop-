@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
     UIGestureRecognizer *gesture = self.interactivePopGestureRecognizer;
     gesture.enabled = NO;
     UIView *gestureView = gesture.view;
